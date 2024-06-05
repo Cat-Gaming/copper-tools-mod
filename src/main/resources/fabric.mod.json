@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "copper_tools",
+	"version": "${version}",
+	"name": "Copper Tools",
+	"description": "Adds copper tools to the game.",
+	"authors": [
+		"k8ol"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/copper_tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.k8ol.CopperTools"
+		],
+		"client": [
+			"me.k8ol.CopperToolsClient"
+		]
+	},
+	"mixins": [
+      "copper_tools.mixins.json",
+		{
+			"config": "copper-tools.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

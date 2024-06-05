@@ -1,0 +1,9 @@
+{
+  "item.copper_tools.copper_stick": "Copper Stick",
+  "item.copper_tools.copper_sword": "Copper Sword",
+  "item.copper_tools.copper_pickaxe": "Copper Pickaxe",
+  "item.copper_tools.copper_axe": "Copper Axe",
+  "item.copper_tools.copper_shovel": "Copper Shovel",
+  "item.copper_tools.copper_hoe": "Copper Hoe",
+  "itemGroup.copper_tools.copper_group": "Copper Tools"
+}
