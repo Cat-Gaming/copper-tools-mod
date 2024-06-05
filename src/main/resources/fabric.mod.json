@@ -8,8 +8,7 @@
 		"k8ol"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Cat-Gaming/copper-tools-mod"
 	},
 	"license": "GPL-3.0-or-later",
 	"icon": "assets/copper_tools/icon.png",
